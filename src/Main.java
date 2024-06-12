@@ -9,8 +9,23 @@ public class Main {
 
         int firstNumber = 0;//the first fibonacci number
         int secondNumber = 1;//the second fibonacci number
+        //handling corner cases when N is 0 or negative
+        if(number <=0){
+            System.out.println("The number can never be zero or negative");/*printing the error message*/
+            return; //exiting the program
+        }
+        //printing the first fibonacci number
+        if(number == 1){
+            System.out.println(firstNumber);
+        }
+        //printing the second fibonacci number
+        else if(number == 2){
+            System.out.println(secondNumber);
+        }
+        //if the number is greater than 2 calculate the number iteratively
+        else {
 
-
+        }
 
 
     }
